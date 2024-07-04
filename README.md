@@ -2,8 +2,6 @@ In this assignment let's build an **Nxt Watch** by applying the concepts we have
 
 ### Refer to videos below:
 
-Deployed Application: [Nxt Watch](https://sai0nxtwatch.ccbp.tech/)
-
 **Success View** <br/>
 These are not playing. Redirect the to another tab to view these videos.
 
