@@ -18,8 +18,8 @@ import {
 
 class LoginForm extends Component {
   state = {
-    username: 'SaiReddy',
-    password: 'sai@2024',
+    username: 'Bhargavi',
+    password: 'bhargavi@2024',
     showPassword: false,
     showSubmitError: false,
     errorMsg: '',
@@ -50,8 +50,8 @@ class LoginForm extends Component {
   submitForm = async event => {
     event.preventDefault()
     let {username, password} = this.state
-    if (username.toLowerCase().trim() === 'saireddy') username = 'rahul'
-    if (password.toLowerCase().trim() === 'sai@2024') password = 'rahul@2021'
+    if (username.toLowerCase().trim() === 'bhargavi') username = 'rahul'
+    if (password.toLowerCase().trim() === 'bhargavi@2024') password = 'rahul@2021'
     const userDetails = {username, password}
     const url = 'https://apis.ccbp.in/login'
     const options = {
